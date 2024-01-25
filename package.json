@@ -1,0 +1,33 @@
+{
+  "name": "taskmanager-backend",
+  "version": "1.0.0",
+  "description": "Task Manager is App to manage task and set their priority.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MERNFullStackDev/taskmanager-backend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MERNFullStackDev/taskmanager-backend/issues"
+  },
+  "homepage": "https://github.com/MERNFullStackDev/taskmanager-backend#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "express-validator": "^7.0.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.1.0",
+    "mongoose-unique-validator": "^4.0.0",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
+}
